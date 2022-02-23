@@ -1,0 +1,33 @@
+        body{
+            font-family: Roboto;
+        }
+        .user-pic{
+            height: 150px;
+            width: 150px;
+            object-fit:cover;
+            border-radius: 50%;
+        }
+        .user-container{
+            background-color: aqua;
+            padding:16px;
+            border-radius: 20px;
+            width: 425px;
+            display: flex;
+            gap:10px;
+        }
+        .user-name{
+            color: #e505de;
+            margin-left: 25px;
+        }
+        .user-list{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+            align-items: center;
+
+        }
+        .user-join-date{
+            font-size: 15px;
+            margin: 25px;
+            color: #223edd;
+        }
